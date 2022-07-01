@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luca Podesta">
+    <meta name="description" content="My first program with voice Search">
+    <title>Voice Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="displays.js"></script>
+    <script type="text/javascript" src="user.js"></script>
+</head>
+<body>
+    <h1 align="center">Voice Search</h1>
+        <div id="firstPage">
+            <fieldset>
+                <h3 align="center">Welcome to my project</h3>
+                <br>
+                <p>
+                    <Strong>Description : </Strong>
+                    <br>
+                    This project is about search with voice using "webkitSpeechRecognition", you can search people with your voice or writing.
+                </p>
+                <br>
+                <input type="button" value="&#128681;" id="btnShowBrowser" class="button" >
+            </fieldset>
+        </div>
+        <div id="searchPage">
+            <fieldset>
+                <input type="button" value="&#128281;" id="btnBack" class="button" >
+                <h3 align="center">Search user data by name</h3>
+                <br><br>
+                <form action="#" method="post">
+                    <input type="text" id="txtSearch" placeholder="Search" class="text">
+                    <input type="button" value="&#x1F3A4;" id="btnRecord" class="button">
+                    <input type="button" value="&#128270;" id="btnSearch" class="button">
+                </form>
+                <table border="1" id="tableUser">
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Place of birth</th>
+                    </tr>
+                </table>
+            </fieldset>
+                <br><br>
+                <table></table>
+        </div>
+</body>
+</html>
